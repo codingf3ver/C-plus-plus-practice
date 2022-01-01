@@ -12,9 +12,9 @@ int main()
     cin>> m;
 
     for (int i=1 ; i<=n; i++)
-    { for (int j=1; j <=m; j++)
+    { for (int j=1; j <=m+1; j++)
         { 
-            if(i==1 || i==n || j ==1 || j==m){
+            if(i==1 || i==n || j ==1 || j==m+i){
                 cout<<"* ";
             }
             else {
